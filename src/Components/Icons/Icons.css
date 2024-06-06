@@ -1,0 +1,51 @@
+
+.icons{
+	text-align:right;
+
+}
+.icons_head{
+	padding-left: 20px;
+
+	
+}
+.cart_ic{
+	position: relative;
+}
+.cart_num{
+	position: absolute;
+	background: #fff;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	bottom: -5px;
+	right: -5px;
+}
+
+
+.search{
+	position: relative;
+	background: #E3E1E1;
+	height: 30px;
+	width: 200px;
+	border-radius: 3px;
+	color: #302F2F;
+	padding-left: 10px;
+	margin-left: 10px;
+	margin-top: -10px;
+
+}
+.icons_head-inp{
+	position: absolute;
+	margin-top: -28px;
+  margin-left: -30px;
+}
+
+.icons_head-inp:hover{
+border-radius: 50%;
+width: 28px;
+height: 28px;
+background: #999696;
+transition: 0.5s;
+}
