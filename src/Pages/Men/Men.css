@@ -4,19 +4,19 @@ object-fit: cover;
 position: relative;
 }
 .men_tit{
-    line-height: 40px;
+    line-height: 30px;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 30px;
 }
 .messi{
-    margin-top: -300px;
+    margin-top: -250px;
     position: absolute;
     margin-left: 100px;
 }
 .men_desc{
     color: aliceblue;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 .btn_men{

@@ -1,6 +1,6 @@
 import './Men.css';
 import video2 from '../../video/messi.mp4'
-import video3 from '../../video/messi.mp4'
+import video3 from '../../video/messi-1.mp4'
 function Men() {
   return (
     <section className="men">
