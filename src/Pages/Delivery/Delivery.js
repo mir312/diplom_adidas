@@ -25,24 +25,25 @@ function Delivery() {
     </div>
    </div>
 
-   <h2 className="del_help"></h2>
+   <h2 className="del_help">HOW CAN WE HELP YOU?</h2>
+
    <div className="delivery_icons flex">
-    <div className="del_border">
+    <a href=""><div className="del_border">
     
       <i className='del_ic1'></i>
       <h4 className="del-txt">RETURN REFUND</h4>
-      </div>
-   </div>
+      </div></a>
+   
 
-   <div className="delivery_icons flex">
-    <div className="del_border">
+    <a href=""><div className="del_border">
     
       <i className='del_ic2'></i>
       <h4 className="del-txt">DELIVERY
       </h4>
       </div>
+      </a>
    </div>
-
+   
     </section>
 
   );
