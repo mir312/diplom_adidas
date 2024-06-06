@@ -1,4 +1,4 @@
-.heart{
+/* .heart{
 	width: 200px;
 	height: 200px;
 	background-color: #e80202;
@@ -41,4 +41,30 @@
 	100%{
 		transform: rotate(45deg) scale(1.2);
 	}
+} */
+
+.del_card{
+	width: 250px;
+	height: 150px;
+	border: solid 1px rgb(207, 207, 207);
+
 }
+.del_card:hover{
+	border: solid 1px rgb(39, 39, 39);
+}
+
+.del_tit{
+	margin-bottom: 30px;
+}
+
+.del_desc{
+	font-size: 15px;
+	font-weight: 600;
+	margin: 20px 10px;
+}
+.del_desc2{
+margin: 50px 10px;
+font-size: 15px;
+color: gray;
+}
+

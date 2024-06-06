@@ -52,9 +52,11 @@ function Contacts() {
 				<p class="address_txt">New York State </p>
 				<p class="address_txt"> Oswego County 125</p>
 				<p class="address_txt">United States</p>
+
+
 			</div>
 
-
+		
     </div>
 
 	   </div>
