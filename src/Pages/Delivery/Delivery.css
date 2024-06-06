@@ -43,6 +43,11 @@
 	}
 } */
 
+
+.delivery{
+	margin-top: 30px;
+}
+
 .del_card{
 	width: 250px;
 	height: 150px;
@@ -84,13 +89,33 @@ color: gray;
 	height: 80px;
 }
 
+.del_ic3{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/payment-new_tcm221-1068008.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
+
+.del_ic5{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/company-info-new_tcm221-1068006.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
+
 .del_border{
-	width: calc((1000px - 20px) /2);
-  height: 150px
-  ;
+width: calc((1020px - 10px) /2);
+  height: 150px;
+  margin-top: 10px;
+  
 	border: solid 1px rgb(207, 207, 207);
 }
 
 .del-txt{
 	margin-left: 30px;
+}
+
+.del_help{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }

@@ -25,7 +25,7 @@ function Delivery() {
     </div>
    </div>
 
-   <h2 className="del_help">HOW CAN WE HELP YOU?</h2>
+   <h2 className="del_help">HELP CATEGORIES</h2>
 
    <div className="delivery_icons flex">
     <a href=""><div className="del_border">
@@ -42,6 +42,57 @@ function Delivery() {
       </h4>
       </div>
       </a>
+
+      <a href=""><div className="del_border">
+    
+    <i className='del_ic3'></i>
+    <h4 className="del-txt">PAYMENT</h4>
+    </div></a>
+
+    <a href=""><div className="del_border">
+    
+      <i className='del_ic1'></i>
+      <h4 className="del-txt">RETURN REFUND</h4>
+      </div></a>
+
+      <a href=""><div className="del_border">
+    
+    <i className='del_ic5'></i>
+    <h4 className="del-txt">COMPANY INFORMATION</h4>
+    </div></a>
+
+    <a href=""><div className="del_border">
+    
+    <i className='del_ic1'></i>
+    <h4 className="del-txt">RETURN REFUND</h4>
+    </div></a>
+
+
+    <a href=""><div className="del_border">
+    
+    <i className='del_ic1'></i>
+    <h4 className="del-txt">RETURN REFUND</h4>
+    </div></a>
+
+    <a href=""><div className="del_border">
+    
+    <i className='del_ic1'></i>
+    <h4 className="del-txt">RETURN REFUND</h4>
+    </div></a>
+
+    <a href=""><div className="del_border">
+    
+    <i className='del_ic1'></i>
+    <h4 className="del-txt">RETURN REFUND</h4>
+    </div></a>
+
+    <a href=""><div className="del_border">
+    
+    <i className='del_ic1'></i>
+    <h4 className="del-txt">RETURN REFUND</h4>
+    </div></a>
+
+
    </div>
    
     </section>
