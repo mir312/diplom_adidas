@@ -47,7 +47,9 @@
 .delivery{
 	margin-top: 30px;
 }
-
+.delivery_icons{
+	
+}
 .del_card{
 	width: 250px;
 	height: 150px;
@@ -104,8 +106,10 @@ color: gray;
 }
 
 .del_border{
-width: calc((1020px - 10px) /2);
+
+	width: calc((100%  - 100px) / 2);
   height: 150px;
+  width: 400px;
   margin-top: 10px;
   
 	border: solid 1px rgb(207, 207, 207);

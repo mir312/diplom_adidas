@@ -86,11 +86,7 @@ function Delivery() {
     <h4 className="del-txt">RETURN REFUND</h4>
     </div></a>
 
-    <a href=""><div className="del_border">
-    
-    <i className='del_ic1'></i>
-    <h4 className="del-txt">RETURN REFUND</h4>
-    </div></a>
+
 
 
    </div>
