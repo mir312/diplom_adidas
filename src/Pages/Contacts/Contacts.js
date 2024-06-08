@@ -4,7 +4,7 @@ function Contacts() {
   return (
 <section className="contacts">
 		<div className="container">
-		
+		<div className="conacts_wigth">
 		<form action="" className="form form_book flex">
          <div className="form_in flex">
 			<div className="form_input">
@@ -71,6 +71,7 @@ function Contacts() {
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A028dcce4280782e701ccf88250efd937fb3b131caccc0fcaf9a5094a129540b5&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
   
 
+	   </div>
 	   </div>
 	</section>
   );

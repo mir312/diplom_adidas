@@ -62,7 +62,7 @@ function App() {
     <div className="App">
       <AppContext.Provider value={{ categories, products, cart, setCart, user, orders }} >
         <Header />
-        <div className="container">
+    
           <main class="flex">
             <CategoryList />
             <div className="main_in">
@@ -84,7 +84,7 @@ function App() {
               </Routes>
             </div>
           </main>
-        </div>
+        
         <Footer />
       </AppContext.Provider>
     </div>

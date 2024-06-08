@@ -24,7 +24,7 @@ function Men() {
 
         <div className="cards_video flex">
           <div className="video_cadr">
-            <video className='video_shoes' autoPlay muted>
+            <video className='video_shoes' controls  autoPlay muted>
               <source src={video3} type="video/mp4"></source>
             </video>
 

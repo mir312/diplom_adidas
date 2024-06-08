@@ -34,7 +34,7 @@ function Home() {
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
-                              <p>Originals</p>
+                              <p className='home_p'>Originals</p>
                               <a href="" className="shop_now">
                                    SHOP NOW
                               </a>

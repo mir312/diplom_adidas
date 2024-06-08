@@ -8,7 +8,7 @@
     text-align: center;
     }
     .book .page_desc{
-    max-width:px;
+    max-width:545px;
     margin: 0 auto 72px;
     font-size: 18px;
     font-weight: 400;
@@ -19,7 +19,7 @@
         padding: 42px 49px;
         background: #fff;
         border-radius: 16px;
-        max-width: 400px;
+        max-width: 500px;
        box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
         position: relative;
         z-index: 10;
@@ -121,16 +121,12 @@
   
 
     .form_contacts{
-     
+        padding: 42px 49px;
         background: #fff;
         border-radius: 16px;
-        width: 400px;
+        width: 500px;
         box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
         position: relative;
         z-index: 10;
         margin-top: 80px;
     }
-
-
-   
- 

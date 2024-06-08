@@ -41,6 +41,8 @@ cursor: zoom-out;
 .home_txt{
     margin-top: 15px;
     font-weight: normal;
+    
+ 
 }
 .card_home{
 width: 400px;
@@ -48,7 +50,9 @@ height: 450px;
 margin-top: 70px;
 }
 
-
+.home_p{
+   margin-top: 20px;
+}
 
 /* .video-women{
    width: 400px;

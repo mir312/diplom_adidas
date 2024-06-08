@@ -15,11 +15,13 @@
 	margin-top: 20px;  
 }
 
-.disnon{
-	/* display: none;
-	opacity: 0;
-	visibility: hidden; */
-} 
+/* .disnon{
+	 display: none;
+	position: absolute;
+}   */
+
+
+
 .disnon li{
 font-size: 12px;
 font-weight: 500;
