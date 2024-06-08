@@ -24,6 +24,7 @@ export default function CartList() {
   const output = products
     .filter((product) => productIds.includes(product.id))
     .map((product) => (
+      <div className="container_cart">
       <div className="cartItem" key={product.id}>
         <Link to={"/products/" + product.slug}>
           <img src={product.picture} alt={product.name} />
@@ -39,6 +40,7 @@ export default function CartList() {
         <span>${(cart[product.id] * product.price).toFixed(2)}</span>
         <i className="fa-solid fa-xmark" onClick={() => onItemRemove(product)} />
           </div>
+      </div>
       </div>
     ));
 

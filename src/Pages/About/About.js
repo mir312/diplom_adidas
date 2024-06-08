@@ -1,11 +1,10 @@
 
 import './About.css';
-import video from '../../video/adidas-2.mp4' 
 import img from '../../img/about-3.jpeg'
 import img1 from '../../img/about-1.png'
 import img2 from '../../img/about_img2.jpeg'
 import img3 from '../../img/about-img.jpeg'
-import img4 from '../../img/about_img4.jpeg'
+
 function About() {
   return (
     <section className="about">
@@ -68,7 +67,7 @@ WE NEED TO BE THERE FOR THE PLANET</h2>
     <img src={img1} alt="" className="img_card" />
     <img src={img2}alt="" className="img_card" />
     <img src={img3} alt="" className="img_card" />
-    <img src={img4} alt="" className="img_card" />
+    
   </div>
  </div>
 
