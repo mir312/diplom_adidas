@@ -98,13 +98,45 @@ color: gray;
 	height: 80px;
 }
 
+
+.del_ic4{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/ordering-new_tcm221-1068007.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
+
 .del_ic5{
 	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/company-info-new_tcm221-1068006.png) center no-repeat;
 	display: block;
 	width: 100px;
 	height: 80px;
 }
+.del_ic6{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/newsletter-new_tcm221-1068004.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
+.del_ic7{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/products-new_tcm221-1068009.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
+.del_ic8{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/vouchers-new_tcm221-1068016.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
 
+.del_ic9{
+	background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enUS/Images/runtastic-new_tcm221-1068010.png) center no-repeat;
+	display: block;
+	width: 100px;
+	height: 80px;
+}
 .del_border{
 
 	width: calc((100%  - 100px) / 2);

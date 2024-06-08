@@ -51,8 +51,8 @@ function Delivery() {
 
     <a href=""><div className="del_border">
     
-      <i className='del_ic1'></i>
-      <h4 className="del-txt">RETURN REFUND</h4>
+      <i className='del_ic4'></i>
+      <h4 className="del-txt">ORDERING</h4>
       </div></a>
 
       <a href=""><div className="del_border">
@@ -63,26 +63,26 @@ function Delivery() {
 
     <a href=""><div className="del_border">
     
-    <i className='del_ic1'></i>
-    <h4 className="del-txt">RETURN REFUND</h4>
+    <i className='del_ic6'></i>
+    <h4 className="del-txt">ACCOUNT NEWSLETTER</h4>
     </div></a>
 
 
     <a href=""><div className="del_border">
     
-    <i className='del_ic1'></i>
-    <h4 className="del-txt">RETURN REFUND</h4>
+    <i className='del_ic7'></i>
+    <h4 className="del-txt">PRODUCTS</h4>
     </div></a>
 
     <a href=""><div className="del_border">
     
-    <i className='del_ic1'></i>
-    <h4 className="del-txt">RETURN REFUND</h4>
+    <i className='del_ic8'></i>
+    <h4 className="del-txt">PROMOTIONS VOUCHERS</h4>
     </div></a>
 
     <a href=""><div className="del_border">
     
-    <i className='del_ic1'></i>
+    <i className='del_ic9'></i>
     <h4 className="del-txt">RETURN REFUND</h4>
     </div></a>
 
