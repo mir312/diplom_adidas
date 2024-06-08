@@ -5,7 +5,7 @@ function Delivery() {
     // <div class="heart"></div>
 
     <section className='delivery'>
-   
+   <div className="container">
    <h2 className="del_tit">HOW CAN WE HELP YOU?</h2>
 
    <div className="del_cards bord flex">
@@ -94,7 +94,7 @@ function Delivery() {
 
 
    </div>
-   
+   </div>
     </section>
 
   );
