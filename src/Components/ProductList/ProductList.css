@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background: #f0efef;
 }
 .ProductList .product hr {
   border: 1px solid rgb(220, 220, 220);
@@ -10,25 +11,26 @@
 .ProductList .product {
   display: flex;
   flex-direction: column;
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid rgb(211, 207, 207);
   border-radius: 5px;
   margin: 15px 0px;
-  padding: 5px;
+
 }
 .ProductList .product img {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 300px;
   background-color: white;
   transition: all 100ms linear;
 }
 .ProductList .product:hover img {
-  filter: opacity(80%);
+
 }
 .product a {
-  color: black;
+  color:rgb(89, 88, 88);
   text-decoration: none;
   font-size: 20px;
   transition: all 100ms linear;
+
 }
 /* .product a:hover {
   color: rgb(255, 130, 151);
@@ -37,10 +39,13 @@
   font-size: 20px;
 }
 .ProductList .text {
-  max-width: 200px;
-  height: 90px;
-  margin: 0 10px;
+
+  margin:50px 50px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .ProductList .actions {
-  margin: 0 0 10px 10px;
+  text-align: center;
+  margin: 0 auto;
+ margin-bottom: 20px;
 }

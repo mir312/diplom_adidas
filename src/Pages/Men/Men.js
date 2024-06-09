@@ -90,7 +90,7 @@ function Men() {
 
        <div className="cards_video">
           <div className="video_cadr">
-            <video className='video_shoes' controls  autoPlay muted>
+            <video className='video_shoes'   autoPlay muted>
               <source src={video3} type="video/mp4"></source>
             </video>
 
