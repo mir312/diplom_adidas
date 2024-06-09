@@ -7,6 +7,7 @@ import img6 from '../../img/men_adi2.png'
 import img7 from '../../img/men_adi3.png'
 import img8 from '../../img/men_adi5.png'
 import img9 from '../../img/men_adi4.png'
+import img12 from '../../img/men_adi6.png'
 function Men() {
   return (
     <section className="men">
@@ -98,7 +99,7 @@ function Men() {
         </div>
 
         <div className="card_home">
-                              <img src={img7} alt='' />
+                              <img src={img8} alt='' />
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
@@ -110,10 +111,20 @@ function Men() {
 
 
         
+          <div className="card_home">
+                              <img src={img7} alt='' />
+                              <i className='heart_ic'></i>
+                              <span className="price">70$</span>
+                              <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
+                              <p>Originals</p>
+                              <a href="" className="shop_now">
+                                   SHOP NOW
+                              </a>
+          </div>
 
 
                          <div className="card_home">
-                              <img src={img8} alt="" />
+                              <img src={img12} alt="" />
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
