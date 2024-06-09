@@ -9,14 +9,15 @@ import CartLink from '../CartLink/CartLink';
 
 function Header() {
 	return (
-		<header className="Header">
-			{/* <div class="Header_br"></div> */}
+
+<header className="Header">
 			<div className="container">
 
 				<div className="Head flex">
 					<Logo />
 					<Menu />
 					<Icons />
+					
 		<Auth />
 
 					<Link to="/cart" className="Cart_ic">
