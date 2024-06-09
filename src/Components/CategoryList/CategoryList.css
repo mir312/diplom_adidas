@@ -1,20 +1,50 @@
 .CategoryList{
     background: rgb(245, 245, 247);
-    padding: 10px 0;
+    padding: 15px 10px;
     width: 250px;
-    position: sticky;
-    top: 120px;
-    left: 0;
+    height: 250px;
+    position: sticky; 
+    left: 0px;
+    /* border: 1px solid rgb(109, 108, 108);  */
+   border-radius: 10px;
+   text-align: center;
 }
 .CategoryList a{
-    display: block;
-    padding: 3px 10px;
-    transition: 0.3s;
+    padding:5px 10px;
 }
+
+/* .dropdownBtn :hover > a{
+    display: block;
+} */
 .CategoryList a:hover{
-    background: rgb(214, 214, 215);;
+    /* background: rgb(214, 214, 215); */
+    background: rgb(120, 120, 120); 
+   border: 1px solid gray;
+   border-radius: 10px;
+   width: 120px;
+   text-align: center;
+   margin: 0 auto;
+margin-top: 5px;
+   transition: 0.5s;
+   display: block;
+   color: #f0efef;;
 }
 .dropdownBtn{
-    padding-bottom: 5px;
-    
+    flex-wrap: nowrap;
+    font-size: 20px;
+    transform: rotate(-90deg) translate(36px, 35px);
+    background: rgb(120, 120, 120); 
+     border: 1px solid rgb(109, 108, 108); 
+     border-radius: 10px;
+    color:#f0efef;
+     width: 220px;
+     margin-left: -100px;
+   margin-top: 130px;
+
+}
+.dropdownContent {
+    margin-top: -120px;
+    color:  #56593D;
+    margin-left: 30px;
+
 }
