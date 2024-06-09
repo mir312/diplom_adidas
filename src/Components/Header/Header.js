@@ -17,8 +17,7 @@ function Header() {
 					<Logo />
 					<Menu />
 					<Icons />
-
-					<Auth />
+		<Auth />
 
 					<Link to="/cart" className="Cart_ic">
 						<span>

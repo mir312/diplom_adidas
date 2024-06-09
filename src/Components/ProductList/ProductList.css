@@ -30,9 +30,9 @@
   font-size: 20px;
   transition: all 100ms linear;
 }
-.product a:hover {
+/* .product a:hover {
   color: rgb(255, 130, 151);
-}
+} */
 .ProductList span {
   font-size: 20px;
 }

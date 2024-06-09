@@ -3,7 +3,10 @@ import video from '../../video/adidas.mp4'
 import img from '../../img/adi-1.png'
 import img1 from '../../img/adi_women.png'
 import img3 from '../../img/adi_women3.png'
+import img10 from '../../img/home_1.png'
+import img11 from '../../img/home_2.png'
 import Image from '../Image/Image';
+
 // import video from  '../../video/adi-women.mp4'
 // import img from '../../img/icons/heart.svg'
 
@@ -102,6 +105,28 @@ function Home() {
                               </a>
                          </div>
 
+                         <div className="card_home">
+                              <img src={img10} alt="" />
+                              <i className='heart_ic'></i>
+                              <span className="price">70$</span>
+                              <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
+                              <p>Originals</p>
+                              <a href="" className="shop_now">
+                                   SHOP NOW
+                              </a>
+       </div>
+
+       
+       <div className="card_home">
+                              <img src={img11} alt="" />
+                              <i className='heart_ic'></i>
+                              <span className="price">70$</span>
+                              <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
+                              <p>Originals</p>
+                              <a href="" className="shop_now">
+                                   SHOP NOW
+                              </a>
+       </div>
 
                     </div>
 

@@ -83,8 +83,8 @@ function App() {
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
+            
           </main>
-        
         <Footer />
       </AppContext.Provider>
     </div>

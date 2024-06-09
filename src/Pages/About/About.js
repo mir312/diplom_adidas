@@ -81,7 +81,28 @@ WE NEED TO BE THERE FOR THE PLANET</h2>
   <i className="icon_about"></i>
 </button>
 </div>
+
+<div id='scrollTop' className='arrow arrow_hide'>
+                         <i className="scroll_icon"></i>
+                         {/* 
+     const scrollBtn = document.querySelector('.arrow');
+window.onscroll =  ()  => {
+     if (window.scrollY > 700){
+          scrollBtn.classList.remove('arrow_hide');
+     } else if (window.scrollY < 700){
+          scrollBtn.classList.add('arrow_hide') ;  
+     };
+     scrollBtn.onclick = () => {
+          window.scrollTo ( 0, 0);
+     }
+     };
+
+     console.log('webpack') */}
+                    </div>
+
     </div>
+
+
     </section>
 
   );
