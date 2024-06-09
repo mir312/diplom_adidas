@@ -60,10 +60,10 @@ function Men() {
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Samba</h4></a>
                               <p>Originals</p>
-                              <button className='shop_now'><a href="" className="">
+                              <a href="" className="shop_now">
                                    SHOP NOW
                               </a>
-                              </button>
+                            
           </div>
 
     <div className="card_home">

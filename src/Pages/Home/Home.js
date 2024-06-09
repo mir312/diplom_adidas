@@ -54,14 +54,13 @@ function Home() {
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Samba</h4></a>
                               <p>Originals</p>
-                              <button className='shop_now'><a href="" className="">
+                              <a href="" className="shop_now">
                                    SHOP NOW
                               </a>
-                              </button>
+                             
                          </div>
 
                          <div className="card_home">
-                              {/* <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/316f56cbdc7c4bf483081e81d37143c9_9366/GAZELLE_Green_IF7154_01_standard.jpg"alt="" /> */}
 
                               <img src={img3} alt="" className="home_img" />
                               <i className='heart_ic'></i>

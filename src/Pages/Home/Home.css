@@ -41,7 +41,7 @@ cursor: zoom-out;
 .home_txt{
     margin-top: 15px;
     font-weight: normal;
-    
+    margin-bottom: 10px;
  
 }
 .card_home{
@@ -58,10 +58,10 @@ margin-top: 70px;
    width: 400px;
    height: 450px;
 } */
-.card p{
+.card_home p{
     color: darkgrey;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .heart_ic{
     position: absolute;
@@ -77,6 +77,7 @@ margin-top: 70px;
 .shop_now{
     text-decoration: underline;
     font-weight: 600;
+
 }
 .shop_now:hover{
  background: #3a3838;
@@ -91,14 +92,14 @@ margin-top: 70px;
 
  .home_border{
     border: solid 1px #3a3838;
-    width: 400px;
+    width: 360px;
     height: 1px;
  } 
 
  .home_border:hover{
     height: 7px;
     background: #3a3838;
-    width: 400px; 
+    width: 360px; 
  transition: 0.3s;
  }
  .brends .home_txt{

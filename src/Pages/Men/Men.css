@@ -56,8 +56,8 @@ position: relative;
   display: block;
   transform: 0.3s;
   margin: 0px 0px 0px 130px;
- background-size: cover;
-margin-top: -10px;
+  background-size: cover;
+  margin-top: -10px;
   }
 .video_shoes{
     width: 300px;
