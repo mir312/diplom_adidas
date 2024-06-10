@@ -3,6 +3,10 @@
     position: relative;
     cursor: zoom-in;
     transition: transform 1.1s ease;
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+    border: 1px solid rgb(102, 102, 102); 
    
 }
 input[type=checkbox]{
@@ -15,3 +19,48 @@ transform: scale(3);
 cursor: zoom-out;
 }
 
+
+.size_num{
+width: 60px;
+height: 45px;
+background: #e8e5e5;
+margin-top: 50px;
+padding: 10px 20px 10px 20px;
+color: #4b4a4a;
+}
+.size{
+    width: 400px;
+}
+.size_num:hover{
+    background: #262626;
+    color:#fff;
+}
+.size_num1{
+
+text-decoration: line-through;
+ width: 60px;
+height: 45px;
+background: #e8e5e5;
+margin-top: 50px;
+padding-left: 20px;
+color: #4b4a4a;
+}
+.size_ic{
+    background: url(../../img/icons/alarm.png) center no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-size: cover;
+    margin-left: 20px;
+}
+.image_video{
+   margin-top: 50px;
+  object-fit: cover;
+  transform: none;
+  width: 400px;
+  height: 450px; 
+  border: 1px solid rgb(102, 102, 102); 
+margin-right: 400px;
+
+
+}

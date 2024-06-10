@@ -16,7 +16,7 @@ function Home() {
      return (
 
           <section className="home">
-               <Image />
+              <Image /> 
                <video className='video' autoPlay muted>
                     <source src={video} type="video/mp4"></source>
                </video>
@@ -26,15 +26,13 @@ function Home() {
 
                     <div className="card_homes flex">
                          <div className="card_home">
-                         <Link to="/image">
-                              <input type='checkbox' name='' id='zoom_img1' />
+                          <Link to="/image"> 
+                               <input type='checkbox' name='' id='zoom_img1' />
 
-                              <a href="img/adi-1.png"> </a>
-
-                              <label for="zoom_img1">
-                                   <img className='home_img' src={img} alt="" />
-                              </label>
-
+                             <label for="zoom_img1">
+                                 
+                              </label> 
+                              <img className='home_img1' src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29af4e86e6474619ad304712bad6afb7_9366/Forum_Low_CL_Shoes_Blue_IG8700_01_standard.jpg" alt="" />
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
@@ -49,7 +47,7 @@ function Home() {
                          <div className="card_home">
                          <Link to="/image">
                               <input type='checkbox' name='' id='zoom_img2' />
-                              <label for="zoom_img2"><img className='home_img' src={img1} alt="" /></label>
+                              <label for="zoom_img2"><img className='home_img2' src={img1} alt="" /></label>
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Samba</h4></a>
@@ -62,7 +60,7 @@ function Home() {
 
                          <div className="card_home">
 
-                              <img src={img3} alt="" className="home_img" />
+                              <img src={img3} alt="" className="home_img3" />
                               <i className='heart_ic'></i>
                               <span className="price">100$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
