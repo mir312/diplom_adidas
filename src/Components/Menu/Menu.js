@@ -20,7 +20,7 @@ function Menu() {
 
           </ul>
           <ul className='disnon'>
-            <li><Link to="/">WOMEN</Link></li>
+            <li><Link to="/women">WOMEN</Link></li>
             
           </ul>
           <ul className='disnon'>
