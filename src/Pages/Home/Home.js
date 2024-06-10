@@ -6,6 +6,7 @@ import img3 from '../../img/adi_women3.png'
 import img10 from '../../img/home_1.png'
 import img11 from '../../img/home_2.png'
 import Image from '../Image/Image';
+import { Link } from 'react-router-dom';
 
 // import video from  '../../video/adi-women.mp4'
 // import img from '../../img/icons/heart.svg'
@@ -25,7 +26,7 @@ function Home() {
 
                     <div className="card_homes flex">
                          <div className="card_home">
-
+                         <Link to="/image">
                               <input type='checkbox' name='' id='zoom_img1' />
 
                               <a href="img/adi-1.png"> </a>
@@ -41,13 +42,12 @@ function Home() {
                               <a href="" className="shop_now">
                                    SHOP NOW
                               </a>
+                             </Link>
                          </div>
 
 
                          <div className="card_home">
-
-                              {/* <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a6a1ecb378204fc6a5a3571b1a3a973e_9366/Samba_OG_Shoes_Kids_White_IE3677_01_standard.jpg"alt="" /> */}
-
+                         <Link to="/image">
                               <input type='checkbox' name='' id='zoom_img2' />
                               <label for="zoom_img2"><img className='home_img' src={img1} alt="" /></label>
                               <i className='heart_ic'></i>
@@ -57,7 +57,7 @@ function Home() {
                               <a href="" className="shop_now">
                                    SHOP NOW
                               </a>
-                             
+                              </Link>
                          </div>
 
                          <div className="card_home">

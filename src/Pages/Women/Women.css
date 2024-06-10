@@ -3,3 +3,83 @@
     position: absolute;
     margin-left: 100px;
 }
+
+/* @media screen and (max-width: 1300px) {
+	.container{
+		max-width: 960px;
+	}
+
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+   
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+    .skills_card{
+        margin-bottom: 45px;
+        }
+ .menu{
+    display: none;
+ }
+ .main_btns{
+    display: none;
+ }
+ .main_top{
+    align-items: flex-start;
+    margin-bottom: 30px;
+    flex-direction: column;
+    position: relative;
+ }
+ .main{
+    padding-top: 60px;
+ }
+ .burger{
+    display: block;
+    width: 33px;
+    height: 20px;
+    position: absolute;
+    top:0;
+    right: 0;
+ }
+ .burger i,
+ .burger i::before,
+ .burger i::after {
+    width: 100%;
+    height: 4px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+ }
+ .burger i::before{
+    content: '';
+     top: 9px;
+    
+    }
+    .burger i::after{
+        content: '';
+        top: 17px;
+    }
+         
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+  .skills_cards {
+    flex-direction: column;
+    align-items: center;
+  }  
+
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+} */

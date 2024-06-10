@@ -31,6 +31,8 @@ export default function CartList() {
         </Link>
         <Link to={"/products/" + product.slug}>{product.name}</Link>
 
+        
+
         <div className="inputs">
         <input type="number"
           value={cart[product.name]}

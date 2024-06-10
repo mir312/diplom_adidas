@@ -3,6 +3,7 @@ import CartList from "../../Components/CartList/CartList";
 import OrderForm from "../../Components/OrderForm/OrderForm";
 import { AppContext } from "../../App";
 import Total from "../../Components/Total/Total";
+// import Image from "../Image/Image";
 
 export function Cart() {
   const [modalActive, setModalActive] = useState(false);
@@ -30,6 +31,7 @@ export function Cart() {
       <h1>Cart</h1>
       <CartList />
       <Total />
+      {/* <Image /> */}
       <button className="order" onClick={() => setModalActive(true)}>Order</button>
       <OrderForm active={modalActive} setActive={setModalActive} />
     </div>
