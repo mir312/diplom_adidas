@@ -7,14 +7,8 @@ function Title() {
   );
 }
 
-// function Title() {
-//   return (
-//  <img className='image' src="img/bg.jpg" alt="" />
- 
 
 
-//   );
-// }
 
 
 export default Title;

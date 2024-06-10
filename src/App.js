@@ -18,6 +18,7 @@ import Kids from './Pages/Kids/Kids';
 import Image from './Pages/Image/Image';
 import Men from './Pages/Men/Men';
 import Sale from './Pages/Sale/Sale';
+import Women from "./Pages/Women/Women";
 
 export const AppContext = createContext({
   categories: [],
@@ -74,6 +75,7 @@ function App() {
                 <Route path="delivery" element={<Delivery />} />
                 <Route path="kids" element={<Kids />} />
                 <Route path="men" element={<Men />} />
+                <Route path="women" element={<Women />} />
                 <Route path="sale" element={<Sale />} />
                 <Route path="image" element={<Image />} />
                 <Route path="cart" element={<Cart />} />
