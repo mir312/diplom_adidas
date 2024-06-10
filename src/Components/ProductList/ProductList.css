@@ -5,8 +5,10 @@
   background: #f0efef;
 }
 .ProductList .product hr {
-  border: 1px solid rgb(220, 220, 220);
+  border: 1px solid rgb(112, 111, 111);
   width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 .ProductList .product {
   display: flex;
@@ -21,6 +23,10 @@
   height: 300px;
   background-color: white;
   transition: all 100ms linear;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+
 }
 .ProductList .product:hover img {
 
