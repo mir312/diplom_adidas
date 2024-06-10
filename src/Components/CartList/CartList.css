@@ -55,7 +55,8 @@ margin-left: 15px;
 
 
 .CartCount{
-  width: 40px;
+  width: 30px;
+  height: 30px;
   background:#fff;
   border-radius: 5px;
 }
@@ -63,10 +64,10 @@ margin-left: 15px;
 .CartDElete{
   background:url(../../img/icons/delete2.svg) center no-repeat;
   display: block;
-  width: 40px;
- height: 40px;
-  /* background:#fff;
-  border-radius: 5px; */
+  width: 30px;
+ height: 30px;
+ background-size: cover;
+
 
 }
 
