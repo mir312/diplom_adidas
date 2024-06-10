@@ -53,6 +53,23 @@ margin-left: 15px;
 
 }
 
+
+.CartCount{
+  width: 40px;
+  background:#fff;
+  border-radius: 5px;
+}
+
+.CartDElete{
+  background:url(../../img/icons/delete2.svg) center no-repeat;
+  display: block;
+  width: 40px;
+ height: 40px;
+  /* background:#fff;
+  border-radius: 5px; */
+
+}
+
 @media (max-width: 880px) {
   .CartList .cartItem {
     font-size: 23px;

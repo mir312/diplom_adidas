@@ -26,11 +26,11 @@ function Home() {
                     <div className="card_homes flex">
                          <div className="card_home">
 
-                              <input type='checkbox' name='' id='zoom_img' />
+                              <input type='checkbox' name='' id='zoom_img1' />
 
                               <a href="img/adi-1.png"> </a>
 
-                              <label for="zoom_img">
+                              <label for="zoom_img1">
                                    <img className='home_img' src={img} alt="" />
                               </label>
 
@@ -48,8 +48,8 @@ function Home() {
 
                               {/* <img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/a6a1ecb378204fc6a5a3571b1a3a973e_9366/Samba_OG_Shoes_Kids_White_IE3677_01_standard.jpg"alt="" /> */}
 
-                              <input type='checkbox' name='' id='zoom_img' />
-                              <label for="zoom_img"><img className='home_img' src={img1} alt="" /></label>
+                              <input type='checkbox' name='' id='zoom_img2' />
+                              <label for="zoom_img2"><img className='home_img' src={img1} alt="" /></label>
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Samba</h4></a>

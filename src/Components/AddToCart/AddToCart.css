@@ -10,3 +10,10 @@
 .AddToCart button:hover {
 background: #353535;
 }
+
+.AddToCart{
+  padding-top: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+  max-width: 400px;
+}

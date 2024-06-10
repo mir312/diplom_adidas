@@ -5,6 +5,7 @@
     height: 250px;
     position: sticky; 
     left: 0px;
+    top: 150px;
     /* border: 1px solid rgb(109, 108, 108);  */
    border-radius: 10px;
    text-align: center;
@@ -47,4 +48,7 @@ margin-top: 5px;
     color:  #56593D;
     margin-left: 30px;
 
+}
+.CategoryList li{
+    margin-bottom: 10px;
 }

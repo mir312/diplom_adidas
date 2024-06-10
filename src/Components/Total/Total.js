@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../../App";
+import './Total.css'
 
 function Total({ onOrder }) {
   const { products, cart } = useContext(AppContext);
@@ -13,10 +14,14 @@ function Total({ onOrder }) {
   const totalItems = Object.values(cart).reduce((sum, qty) => sum + qty, 0);
 
   return (
-    <div className="Total">
-      <h2>Total</h2>
-      <p>Items: {totalItems}</p>
-      <p>Price: ${totalPrice}</p>
+    <div className="container">
+    <div className="Total flex">
+      <h2 className="total_sec">Total</h2>
+      <div className="tot_text ">
+      <p className="total_txt" >Items: {totalItems}</p>
+      <p className="total_price">Price: ${totalPrice}</p>
+      </div>
+    </div>
     </div>
   );
 }
