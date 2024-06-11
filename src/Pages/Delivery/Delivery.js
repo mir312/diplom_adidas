@@ -11,16 +11,20 @@ function Delivery() {
    <div className="del_cards bord flex">
     <div className="del_card"><a href="">
       <p className="del_desc">Refunds</p>
+      <i className='deliv-ic1'></i>
       <p className="del_desc2">Return and Refunds</p>
       </a></div>
     <div className="del_card"><a href=""><p className="del_desc">Returning an item</p>
+    <i className='deliv-ic2'></i>
     <p className="del_desc2">Return and Refunds</p>
     </a></div>
     <div className="del_card"><a href="">
-      <p className="del_desc">Returning an item</p>
-      <p className="del_desc2">Return and Refunds</p>
+      <p className="del_desc">Exchanging an item</p>
+      <i className='deliv-ic3'></i>
+      <p className="del_desc2">Ordering</p>
       </a></div>
-    <div className="del_card"><a href=""><p className="del_desc">Returning an item</p>
+    <div className="del_card"><a href=""><p className="del_desc">Return policy</p>
+    <i className='deliv-ic4'></i>
     <p className="del_desc2">Return and Refunds</p></a>
     </div>
    </div>

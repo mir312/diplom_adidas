@@ -61,18 +61,58 @@
 }
 
 .del_tit{
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .del_desc{
 	font-size: 15px;
 	font-weight: 600;
 	margin: 20px 10px;
+	margin-left: 20px;
+	
 }
+.deliv-ic1{
+	background:url(../../img/icons/delivery-2.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-size: cover;
+	text-align: left;
+	margin-left:20px;
+}
+.deliv-ic2{
+	background:url(../../img/icons/delivery-3.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-size: cover;
+	text-align: left;
+	margin-left:20px;
+}
+.deliv-ic3{
+	background:url(../../img/icons/delivery-4.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-size: cover;
+	text-align: left;
+	margin-left:20px;
+}
+.deliv-ic4{
+	background:url(../../img/icons/delivery-5.png) center no-repeat;
+	width: 40px;
+	height: 40px;
+	display: block;
+	background-size: cover;
+	text-align: left;
+	margin-left:20px;
+}
+
 .del_desc2{
-margin: 50px 10px;
+margin: 10px 10px;
 font-size: 15px;
 color: gray;
+margin-left: 20px;
 }
 
 .del_ic1{

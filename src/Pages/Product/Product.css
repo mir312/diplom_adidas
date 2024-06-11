@@ -1,0 +1,12 @@
+.Product{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background: #8f8989;
+    color: aliceblue;
+}
+.order_img{
+    width: 400px;
+    height: 450px;
+}
+
