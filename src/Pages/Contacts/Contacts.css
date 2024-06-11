@@ -64,7 +64,7 @@
         background: #fff;
         margin-top: -245px;
         padding-top: 350px;
-        margin-bottom: 100px;
+        
     }
     .address_in{
   
@@ -110,6 +110,7 @@
         font-weight: 400;
         line-height: 28px;
         color: #2C2F24;
+  
     }
     .address_link{
     font-size: 24px;
@@ -128,5 +129,5 @@
         box-shadow: 0 3px 60px 0 rgba(0, 0, 0,0.08);
         position: relative;
         z-index: 10;
-        margin-top: 80px;
+    
     }

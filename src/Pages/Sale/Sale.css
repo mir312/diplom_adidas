@@ -138,13 +138,13 @@
       rgba(3, 169, 244, 1) 15%,
       rgba(63, 180, 233, 1) 65%
     );
-    position: relative;
+    position: absolute;
     cursor: pointer;
     font-size: 17px;
     padding: 0.7em 0.7em;
     border-radius: 50px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    margin-left: 50%;
+  margin: 80px 180px;
   }
   .tooltip-container:hover {
     background: #fff;
