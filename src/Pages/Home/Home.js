@@ -16,7 +16,6 @@ function Home() {
      return (
 
           <section className="home">
-              <Image /> 
                <video className='video' autoPlay muted>
                     <source src={video} type="video/mp4"></source>
                </video>

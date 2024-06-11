@@ -35,7 +35,7 @@ export default function CartList() {
 
         <div className="inputs">
         <input type="number"
-          value={cart[product.name]}
+          value={cart[product.id]}
           min={1}
           className="CartCount"
           onChange={(event) => onQuantityChange(product, +event.target.value)} />
