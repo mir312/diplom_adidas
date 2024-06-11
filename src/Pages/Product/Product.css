@@ -1,12 +1,148 @@
 .Product{
-    width: 500px;
+    /* width: 500px;
+    height: 700px; */
     text-align: center;
     margin: 0 auto;
-    background: #8f8989;
+    /* background: #8f8989; */
     color: aliceblue;
+    margin-top: 50px;
+  
 }
 .order_img{
-    width: 400px;
+    width: 450px;
     height: 450px;
+    border: solid 1px #8f8989;
+    border-radius: 5px;
+    margin-left: 100px;
 }
 
+.product_desc{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  
+
+}
+
+.product_price{
+   font-size: 20px;
+   font-weight: 500; 
+
+}
+.product_txt{
+    font-size: 20px;
+    font-weight: 500; 
+    width: 300px;
+}
+.product_order{
+    background:#868383;
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+.size_num{
+     width: 60px;
+     height: 50px;
+     background: #e8e5e5;
+     margin-top: 10px;
+     padding:15px 20px 10px 20px;
+     color: #4b4a4a;
+    
+ }
+  .size_prod{
+     padding-top: 30px;
+}
+ .size_num:hover{
+    background: #262626;
+    color:#fff;
+    transition: 0.3s;
+}
+.size_num1{
+    text-decoration: line-through;
+     width: 60px;
+     height: 50px;
+    background: #e8e5e5;
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #4b4a4a;
+}
+.size_ic{
+     background: url(../../img/icons/alarm.png) center no-repeat;
+     width: 20px;
+    height: 20px;
+     display: block;
+     background-size: cover;
+     margin-left: 20px;
+}
+
+
+.colors{
+max-width: 300px;
+ text-align: center;
+  margin: 0 auto;
+}
+
+.color1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1dede ;
+    background: #c44242;
+}
+
+.color2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1dede ;
+    background: #72c442;
+}
+
+.color3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1dede ;
+    background: #383e34;
+}
+
+.color4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1dede ;
+    background: #e5ef2e;
+}
+.color5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e1dede ;
+    background: #f3f3ef;
+}
+
+.color6{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #f3f3ef ;
+    background: #4022a1;
+}
+
+.color7{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #f3f3ef ;
+    background: #6a0c82;
+}
+
+.color_desc{
+    font-weight: 600;
+    font-style: 35px;
+   margin-bottom: 20px;
+    margin-top: 20px;
+  
+}

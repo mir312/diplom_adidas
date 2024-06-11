@@ -1,0 +1,16 @@
+.order{
+   font-size: 30px;
+   font-weight: 600;
+   color: rgb(64, 66, 66);
+   margin-top: 50px;
+}
+
+.cart_txt{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(64, 66, 66);
+  padding-top: 20px;
+  padding-bottom: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
