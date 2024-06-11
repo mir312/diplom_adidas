@@ -26,13 +26,13 @@ function Home() {
 
                     <div className="card_homes flex">
                          <div className="card_home">
-                          <Link to="/image"> 
+                          <a href="/image">
                                <input type='checkbox' name='' id='zoom_img1' />
 
                              <label for="zoom_img1">
                                  
                               </label> 
-                              <img className='home_img1' src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29af4e86e6474619ad304712bad6afb7_9366/Forum_Low_CL_Shoes_Blue_IG8700_01_standard.jpg" alt="" />
+                              <img className='home_img' src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/29af4e86e6474619ad304712bad6afb7_9366/Forum_Low_CL_Shoes_Blue_IG8700_01_standard.jpg" alt="" />
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Gazelle shoes</h4></a>
@@ -40,14 +40,14 @@ function Home() {
                               <a href="" className="shop_now">
                                    SHOP NOW
                               </a>
-                             </Link>
+                              </a>
                          </div>
 
 
                          <div className="card_home">
                          <Link to="/image">
                               <input type='checkbox' name='' id='zoom_img2' />
-                              <label for="zoom_img2"><img className='home_img2' src={img1} alt="" /></label>
+                              <label for="zoom_img2"><img className='home_img' src={img1} alt="" /></label>
                               <i className='heart_ic'></i>
                               <span className="price">70$</span>
                               <a href=""><h4 className="home_txt">Samba</h4></a>
