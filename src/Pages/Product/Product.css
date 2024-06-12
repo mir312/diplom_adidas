@@ -5,7 +5,8 @@
     margin: 0 auto;
     /* background: #8f8989; */
     color: aliceblue;
-    margin-top: 50px;
+
+
   
 }
 .order_img{
@@ -41,6 +42,7 @@
     height: 450px;
     border-radius: 5px;
     margin-right: 100px;
+    padding: 10px 10px 20px 10px;
 }
 .size_num{
      width: 60px;
@@ -142,7 +144,7 @@ max-width: 300px;
 .color_desc{
     font-weight: 600;
     font-style: 35px;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
   
 }

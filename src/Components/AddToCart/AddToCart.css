@@ -19,5 +19,10 @@ background: #353535;
   align-items: center;
   max-width: 400px;
   margin-bottom: 20px;
+ 
+}
+.Product .AddToCart{
+  max-width: 240px;
+  margin: 50px auto 20px;
 
 }
