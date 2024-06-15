@@ -1,9 +1,9 @@
 
 import './About.css';
-import img from '../../img/about-3.jpeg'
+import img from '../../img/about_fig2.jpg'
 import img1 from '../../img/about-1.png'
 import img2 from '../../img/about_img2.jpeg'
-import img3 from '../../img/about-img.jpeg'
+import img3 from '../../img/about_fig.jpg'
 
 function About() {
   return (

@@ -61,7 +61,7 @@ text-align: center;
 
 }
 
-.sport_img img{
+.sport_img {
   width: 400px;
   height: 350px;
 }
@@ -92,7 +92,7 @@ text-align: center;
   margin-top: 20px;
 }
 .about_cards{
-  margin-top: 80px;
+  margin-top: 150px;
 }
 
 .learn  {
