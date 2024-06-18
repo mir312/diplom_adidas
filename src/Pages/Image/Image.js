@@ -15,6 +15,13 @@ function Image() {
 
           <video className='image_video' preload="auto" loop="" playsinline="" src="https://assets.adidas.com/videos/ar_1,w_480,c_fill,q_auto,f_auto/7009a008be984af4ac921eb1e168c2c6_d98c/Forum_Low_CL_Shoes_Blue_IG8700_video.mp4" autoplay=""></video>
 
+          <a href="/home" className="back_home flex">
+          <i className='back_ic'></i>
+           <p className='back'>Back</p>
+          </a>
+
+          </div>
+
           <div className="size">
             <h2 className="size_desc">Sizes</h2>
             <div className="size_nums flex">
@@ -38,7 +45,7 @@ function Image() {
           </div>
 
 
-        </div>
+       
 
 
         {/* <div class="accordion accordion-flush" id="accordionFlushExample">

@@ -31,6 +31,7 @@ color: #4b4a4a;
 }
 .size{
     padding-top: 30px;
+    width: 450px;
 }
 .size_num:hover{
     background: #262626;
@@ -80,3 +81,33 @@ margin-right: 400px;
     border: solid 1px #4b4a4a;
     width: 500px;
 } */
+
+.back{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+ .back:hover{
+    background: #262626;
+    color: #fff;
+    width: 80px;
+    
+}
+
+.back_ic{
+    background: url(../../img/icons/back_ic.png) center no-repeat;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+
+ .back_home:hover{
+background: #262626;
+width: 80px;
+background: url(../../img/icons/back_ic2.png) center no-repeat;
+display: block;
+width: 20px;
+height: 20px;
+} 
